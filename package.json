@@ -27,7 +27,8 @@
     "travis:test": "npm run test -- --runInBand",
     "travis:coverage": "npm run test:coverage -- --runInBand",
     "appveyor:test": "npm run test",
-    "webpack-defaults": "webpack-defaults"
+    "webpack-defaults": "webpack-defaults",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "cacache": "^9.2.9",
